@@ -1,0 +1,72 @@
+공부할 사람만 학교 와라?^ㅁ^ 총 86명중 70명 출석, 현재인원 69명
+
+대학에 와서 공부하는 이유 = 더 나은 삶을 살기 위해서? 몸값 높일라고
+어려운 분야일수록 희소성의 가치 높음 RF분야가 빡세고 사람이 많이 없음
+
+공학이 무엇인가?
+자연에서 발견한 진리를 이용하여 삶을 윤택하게 만들기 위한 생산활동
+저가, 적은 노동력으로 높은 품질의 제품을 만드는 것
+
+VR : 가상
+AR : 증강
+MR : 혼합
+XR : 확장 현실
+
+라우터의 역할 프로토콜 종합, 
+
+TCP/IP P는 프로토콜 의미
+
+- A single-layer protocol
+maria - 통신 - ann(면-대-면으로 한 계층에서만 이루어짐)
+계층이 하나만 있어도 됨.
+
+- A three-layer protocol
+maria와 ann 편지로 통신
+편지를 써거나 읽기만하면됨
+밑에서 우체국에서 분류하여 전송해주는 회사가 있음 (부수적인 업무)
+ex)
+편지를 쓰고(layer1) 그 밑에서 암호화 시키고(layer2), 그 후 보냄(layer3)
+편지를 받고(layer3) 그 후 복호화 시키고(layer2), 읽을 수 있음(layer1)
+보내는 쪽과 받는 쪽의 계층이 같아야하고, 하는 역할도 같아야함
+
+- logical connections
+layer-to-layer communication : 같은 계층 사이에서 연결된 것을 의미
+
+계층화된 구조의 장점
+- 서비스의 분화
+- 그 기능을 갖고 있는 계층에서의 문제점을 찾으면 됨
+- 실패나 고장이 있어도 고치기 쉽다.
+
+TCP/IP(Transmission Control Protocol/Internet Protocol)
+(human이 있지만 거의 어플리케이션과 비슷하게 봄?)
+Application : Layer5
+Transport : Layer4
+Network : Layer3
+Data link : Layer2
+Physical : Layer1
+
+http = protocol
+카카오톡 안에도 보이지 않지만 통신을 위한 프로토콜이 정의되어있음
+
+link1, link2, link3=하나의 네트워크(ex, net1, net2, net3)
+A에서 B까지 어플케이션과, 트렌스포트 사이에 logical conection이 있다고 생각
+
+라우터=네트워크와 네크워크를 연결함 프로토콜을 바꾸는 역할을 하기도 함.
+유선랜에서 데이터를 받아서 무선랜으로 데이터를 바꿔서 전달.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
